@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #111;
+    color: white;
+}
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 18px;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #222;
+}
+nav {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #00bfff;
+}
+section h2 {
+    border-bottom: 2px solid #00bfff;
+    padding-bottom: 10px;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+    font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+section li {
+    margin: 8px 0;
+}
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-3px);
+}
+header h1 {
+    letter-spacing: 2px;
+}
+header p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+}
+body {
+    line-height: 1.6;
+}
+section {
+    max-width: 900px;
+    margin: 20px auto;
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    background-color: #111;
+    color: white;
+}
+header {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+section p {
+    line-height: 1.6;
+}
+section h2 {
+    font-size: 26px;
+    margin-top: 0;
+}
+section h2 {
+    margin-bottom: 20px;
+}
+border: 1px solid #e0e0e0;
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 1px solid #e0e0e0;
+}
